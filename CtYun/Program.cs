@@ -16,17 +16,6 @@ using System.Text.Json;
 
 
 
-//DesktopInfo desktopInfo = new DesktopInfo
-//{
-//    Token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjIjoid2ViX1dRN0FkU01pWDN0aWpsdDVOZXdnUWlnVmtiTWdsbDVVIiwidHkiOjYwLCJpc3MiOiJkZXNrdG9wLmN0Zy5jb20iLCJjbCI6IjEwMzAyMDAwMSIsImkiOiIzNi4xODMuNS4yNyIsImQxIjoyMjEzNzE5MSwibiI6IkNocm9tZea1j-iniOWZqCIsInMiOiJXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQiLCJ0IjoyNTA0MzIsInUiOjE3NTY2ODkzLCJ0MSI6MCwiaWF0IjoxNzY4MjI4MTk4LCJqdGkiOiI2Mjk4MTcwMzQzNzY0ODQ0MCJ9.0av-IocjKgfwadO2ce9u41qbTm3RE5b3VrTODyq2bXY",
-//    TenantMemberAccount= "ydn_c_20251216_b704o0",
-//    DesktopId= "22137191",
-//};
-//var sss= desktopInfo.ToBuffer("web_WQ7AdSMiX3tijlt5NewgQigVkbMgll5U");
-//var hex1 = BitConverter.ToString(sss).Replace("-", "");
-
-//SendInfo sendInfo = new SendInfo { Type = 112, Data = sss };
-//var hex2 = BitConverter.ToString(sendInfo.ToBuffer(false)).Replace("-", "");
 
 var globalCts = new CancellationTokenSource();
 
